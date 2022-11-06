@@ -6,16 +6,16 @@ let sum = 0
 let hasBlackJack = false
 let isAlive = false
 let message = ""
-//Setting the maximum prize using objects
+//Setting the maximum sum using objects
 let player = {
-    name: "Prize",
-    chips:"70"
+    name: "Blackjack",
+    chips:"21"
 }
 let messageEl=document.getElementById("message-el");
 let sumEl=document.getElementById("sum-el");
 let cardsEl=document.getElementById("cards-el");
 let playerEl=document.getElementById("player-el");
-playerEl.textContent=player.name+ ": "+"$"+player.chips;
+playerEl.textContent=player.name+ ": "+player.chips;
 
 //console.log(sum);
 
